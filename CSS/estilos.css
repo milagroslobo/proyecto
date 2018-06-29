@@ -1,0 +1,104 @@
+/*voy a usar color blanco tambien pero calando sobre imagen  o fondo, puse todo del mismo para que se vea*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #d6d6d6;
+}
+.nombre { color: white;
+	font-family:Patua One,rockwell, cursive;
+	font-size: 65px;
+	font-weight: lighter;
+	position: absolute;
+	left:560px;
+	top:500px;
+}
+
+header {
+	background-color: #d6d6d6;
+	position: fixed;
+	width: 100vw;
+}
+nav ul li a { 
+	color: #D10467;
+	font-family:Dosis,Helvetica, sanserif;
+	font-size: 35px;
+	font-weight: lighter;	
+}
+
+ul li {
+	display: inline-block;
+}
+
+.principal {
+	width: 100vw;
+}
+
+article h1 { color: #D10467;
+	font-family:Dosis,Helvetica, sanserif;
+	font-size: 90px;
+	font-weight: normal;
+}
+
+#home h1 { 
+	position: absolute;
+	position: left 240px, bottom 140px;	
+}
+
+p { 
+	color: #D10467;
+	font-family:Dosis,Helvetica, sanserif;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.nosotros {
+	width: 80%;
+	float: left;
+}
+
+#us p, h1 {
+	width: 15%;
+	float: left;
+	text-align: justify;
+	margin-top: 5%;
+	margin-left: 1.4%;
+	position: relative;
+}
+
+#music div{
+	position: relative;
+	margin: auto;
+	margin-left: 100px;
+}
+#music h1 {
+	display: inline-block;
+	height: 90%;
+	text-align: left;
+	float: left;
+}
+
+#music li {
+	float: left;
+	margin: 1.2%;
+}
+
+#tour
+{
+	clear: both;
+}
+.fecha { color: #D10467;
+	font-family:Patua One, rockwell, cursive;
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+.ciudad { color: #D10467;
+	font-family:Dosis,Helvetica, sanserif;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: italic;
+}
