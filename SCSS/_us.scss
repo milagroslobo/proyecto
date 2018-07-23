@@ -1,0 +1,59 @@
+#us {
+	@extend %base;
+	background-image: url(../images/fondo.png);
+	background-size: 100%, 100vh;
+	background-repeat:no-repeat;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenedor {
+	background-color: rgba(255,255,255,0.8);
+	margin-top: 5%;
+	width: 85%;
+	height: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content:center;
+}
+#us h1 {
+	@extend %titulo;
+	color: $rojo;
+	font-size: 6rem;
+	margin-top: 0.5%;
+	width: 90%
+}
+
+#us .contenedor p {
+	@extend %textos;
+	color: $rojo;
+	width: 90%;
+}
+
+#us .imagenes {
+	width: 60%;
+}
+
+.imagenes ul {
+	display: flex;
+	justify-content: center;
+}
+
+.imagenes ul li {
+	width: 25%;
+	margin: 0 10px; 
+}
+
+.imagenes ul li img {
+	width: 100%;
+}
+
+
+
+
+
+
+
